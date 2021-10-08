@@ -124,14 +124,22 @@ button {
 }
 /* Hero Style End */
 
-/* what we do section */
-#what-we-do h2 {
+/* container for what-we-do and what-you-do sections */
+.container {
+    text-align: center;
+}
+
+.container h2 {
     display: inline-block;
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     border-bottom: 3px solid;
+}
+
+/* what we do section */
+#what-we-do h2 {
     border-color: #fce138;
 }
 
@@ -148,6 +156,30 @@ button {
     background-color: #fce138;
 }
 
-.container {
-    text-align: center;
+#what-you-do h2 {
+    border-color: #39a6b2;
+}
+
+.steps img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.steps h3 {
+    color: #024e76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.steps span {
+    font-size: 38px;
+}
+
+.steps p {
+    color: #39a6b2;
+    font-size: 23px;
+}
+
+.steps section {
+    margin-bottom: 80px;
 }
