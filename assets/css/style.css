@@ -123,3 +123,17 @@ button {
     font-size: 16px;
 }
 /* Hero Style End */
+
+/* what we do section */
+.what-we-do h2 {
+    text-decoration: underline #fce138;
+}
+
+/* what-you-do-steps section */
+.what-you-do-steps {
+    background-color: #fce138;
+}
+
+.container {
+    text-align: center;
+}
