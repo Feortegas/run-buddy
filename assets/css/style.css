@@ -10,7 +10,7 @@
     font-family: Helvetica, Arial, sans-serif;
   }
   
-  /* apply styles to <header> */
+  /* header section begin */
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -47,31 +47,8 @@
     font-weight: lighter;
     font-size: 1.55vw;
   }
-  
-  footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  footer h2 {
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
-  
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
-  
-  footer a {
-    color: #024e76;
-  }
-  
+  /* header section end */
+    
   section {
     padding: 60px;
   }
@@ -84,9 +61,8 @@
     background-position: center;
     position: relative;
   }
-  /* Hero Style End */
-  
-  .hero-form {
+   
+  .hero .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
@@ -97,15 +73,16 @@
     right: 140px;
   }
   
-  .hero-form h3 {
+  .hero .hero-form h3 {
     font-size: 24px;
     margin: 0;
   }
-  .hero-form p {
+  
+  .hero .hero-form p {
     margin: 5px 0 15px 0;
   }
   
-  .form-input {
+  .hero .hero-form .form-input {
     border: 1px solid #024e76;
     display: block;
     padding: 7px 15px;
@@ -115,18 +92,20 @@
     margin-bottom: 15px;
   }
   
-  .hero-form label {
+  .hero .hero-form .hero-form label {
     margin: 0 5px;
   }
   
-  .hero-form button {
+  .hero .hero-form button {
     color: #fce138;
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
   }
+   /* Hero Style End */
   
+   /* what we do section begin */
   .intro {
     text-align: center;
   }
@@ -138,7 +117,9 @@
     font-size: 20px;
     margin: 0 auto;
   }
-  
+  /* what we do section end */
+
+  /* what you do section begin */
   .steps {
     text-align: center;
     background: #fce138;
@@ -184,8 +165,9 @@
   .secondary-border {
     border-color: #39a6b2;
   }
-  
-  /* trainers section */
+  /* what you do section end */
+
+  /* trainers section begin*/
   .trainers {
       text-align: center;
   }
@@ -232,8 +214,9 @@
       font-size: 17px;
       line-height: 1.3;
   }
+  /* your trainer section end */
 
-  /* reach out section */
+  /* reach out section begin*/
   .contact {
       text-align: center;
       background: #024e76;
@@ -272,3 +255,30 @@
   .contact-info a {
     color: #fce138;
   }
+  /* reach out section end */
+
+  /* footer section begin */
+  footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  footer h2 {
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+  }
+  
+  footer a {
+    color: #024e76;
+  }
+  /* footer section end */
